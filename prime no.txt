@@ -1,0 +1,24 @@
+num1 = int(input("enter the number"))
+for pnum in range(num1+1):
+    if (pnum>1):
+        div = False
+        for ind in range(2,pnum):
+            if(pnum% ind ==0):
+                div = True
+        if not div:
+            print("{}number is primer number".format(pnum))
+     				
+
+
+
+
+
+                         or
+num = int (input("enter the number"))
+for i in range(2,int(num/2)+1):
+        if num>1:
+            if (num%i==0):
+                print ("this is not prime no")
+            break
+        else:
+             print("prime no")
